@@ -130,10 +130,10 @@ console.log(babyNick.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. windows/global binding is when none of the other binding are applicable and is considered an error.
+  2. implicit binding is when a functions method looks to the left of the '.' for 'this'
+  3. new binding is when the 'this' keyword binds to the newly created object when using a constructor function.
+  4. explicit binding is when we explicitly tell javascript to bind 'this' to something using .call, .bind, or .apply
 */
 
 
